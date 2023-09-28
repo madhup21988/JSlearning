@@ -55,6 +55,15 @@ var lengthAfterTrim = result.length;
 var result = lengthBeforeTrim - lengthAfterTrim;
 console.log('Removed extra spaces are: ', result);
 
+var strs = " Hey you are doing good, keep it up "
+var lengthBeforeTrim = strs.length;
+console.log("Length before trim : ", strs.length);
+var resultl = strs.trim();
+console.log("Length after trim: ", resultl.length);
+var lengthAfterTrim = resultl.length;
+var resultp = lengthBeforeTrim - lengthAfterTrim;
+console.log('Removed extra spaces are: ', resultp);
+
 
 console.log("========== slice() =============== ");
 var greet = 'Hello Good Morning!';
